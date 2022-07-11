@@ -1,0 +1,68 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.parent{
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	align-items: center;
+	place-items:center;
+}
+.child{
+	flex: 50%;
+	width: 100vw;
+	height: 100vh;
+	place-items:center;
+}
+.child1{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.child2{
+	display: grid;
+	background-color: rgb(80 0 85);
+	align-items: center;
+}
+.height{
+	height:25px;
+}
+.button{
+	height: 30px;
+}
+a.link{
+	text-decoration: none;
+	color: purple;
+}
+.dot{
+	border-radius: 50px;
+	background-color: white;
+	height: 7px;
+	width: 7px;
+	display: inline-block;
+}
+.arrow{
+	border: solid purple ; 
+	display: inline-block;
+	border-width: 0 3px 3px 0;
+	padding: 3px;
+}
+.l{
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+}
+.r{
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+.butto{
+	border-radius: 50px;
+}
+
+@media only screen and (max-width: 312px)
+{
+	.parent{
+		flex-wrap: wrap;
+	}
+}

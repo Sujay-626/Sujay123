@@ -1,0 +1,39 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.height{
+	height:25px;
+}
+.button{
+	height: 30px;
+}
+a.link{
+	text-decoration: none;
+	color: purple;
+}
+.dot{
+	border-radius: 50px;
+	background-color: white;
+	height: 7px;
+	width: 7px;
+	display: inline-block;
+}
+.arrow{
+	border: solid purple ; 
+	display: inline-block;
+	border-width: 0 3px 3px 0;
+	padding: 3px;
+}
+.l{
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+}
+.r{
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+.butto{
+	border-radius: 50px;
+}
+
